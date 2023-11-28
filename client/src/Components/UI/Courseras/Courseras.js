@@ -128,14 +128,16 @@ export default function Couseras() {
           </div>
         </Slider> */}
 
+        <div className="mx-[45px]">
         <Slider {...settings}>
           
           {data.map((item) => (
-            <div className="m-auto">
+           <div className="" key={idx}>
               <CardCousera data={item}></CardCousera>
             </div>
           ))}
         </Slider>
+        </div> 
       </div>
     </>
   );
