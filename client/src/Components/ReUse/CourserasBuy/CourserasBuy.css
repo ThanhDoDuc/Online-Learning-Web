@@ -1,0 +1,40 @@
+.couseras .slick-prev {
+    left: 0px !important;
+    z-index: 1;
+    height: 40px !important;
+    width: 40px !important;
+    border-radius: 50%;
+    margin-left: -45px;
+  }
+  .couseras .slick-next {
+    /* border: 1px solid green !important; */
+    right: 0px !important;
+    height: 40px !important;
+    width: 40px !important;
+    border-radius: 50%;
+    margin-right: -45px;
+  }
+  .couseras .slick-next::before,
+  .couseras .slick-prev::before {
+    font-size: 45px;
+    color: #1c1d1f;
+  }
+  
+  .couseras h3 {
+    background-color: rgb(202, 40, 40);
+    border: 1px solid blue;
+  
+    height: 200px;
+  }
+  .couseras .slick-list {
+  }
+  .couseras .slick-disabled {
+    display: none !important;
+  }
+  
+  .bg-white,
+  .border,
+  .border-gray-200,
+  .rounded-lg {
+    margin: 0 auto;
+  }
