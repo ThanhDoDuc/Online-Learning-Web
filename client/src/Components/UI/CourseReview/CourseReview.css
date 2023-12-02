@@ -1,0 +1,38 @@
+.course-review-card {
+    border: 1px solid #d1d7dc;
+    box-shadow: 0 2px 4px rgba(0,0,0,.08), 0 4px 12px rgba(0,0,0,.08);
+    background-color: white;
+    margin-bottom: 16px;
+    max-height: 300px;
+    min-height: 300px;
+    overflow-y: auto;
+}
+
+.cr-user-info {
+    display: flex;
+    align-items: center;
+    padding: 2rem 2rem 0 2rem;
+}
+
+.cr-user-avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #f2f2f2;
+}
+
+.cr-user-name {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.cr-rating {
+    display: flex;
+}
+
+.cr-description {
+    font-size: 14px;
+    padding: 1rem 2rem 2rem 2rem;
+}
