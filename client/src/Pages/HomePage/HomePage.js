@@ -1,20 +1,21 @@
 import React from "react";
-import FeaCop from "../../Components/FeaturedTopics/FeaCop";
-import SliderTop from "../../Components/SliderTop/SliderTop";
-import Couseras from "../../Components/Couseras/Couseras";
-import TopCate from "../../Components/TopCategories/TopCate";
+import FeaCop from "../../Components/UI/FeaturedTopics/FeaCop";
+import SliderTop from "../../Components/UI/SliderTop/SliderTop";
+import Couseras from "../../Components/UI/Couseras/Couseras";
+import TopCate from "../../Components/UI/TopCategories/TopCate";
+import UserPageLayout from "../../Components/Layout/UserPageLayout/UserPageLayout";
 import CouserasBuy from "../../Components/ReUse/CoursesBuy/CoursesBuy";
+
 const HomePage = () => {
   return (
-    <>
-    <SliderTop/>
-    <CouserasBuy/>
-    <TopCate/>
-    <Couseras/>
-    <FeaCop/>
-    </>
-  
-    );
+    <UserPageLayout>
+      <SliderTop />
+      <CouserasBuy/>
+      <TopCate />
+      <Couseras />
+      <FeaCop />
+    </UserPageLayout>
+  );
 };
 
 export default HomePage;
