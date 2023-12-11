@@ -188,7 +188,7 @@ const Course = () => {
                 Language:{" "}
                 {courseInformation.language
                   ? courseInformation.language
-                  : "English"}
+                  : "Tiếng Việt"}
               </div>
             </div>
           </div>
@@ -304,9 +304,9 @@ const Course = () => {
                     );
                   })}
                   <CourseReview></CourseReview>
+                  {/* <CourseReview></CourseReview>
                   <CourseReview></CourseReview>
-                  <CourseReview></CourseReview>
-                  <CourseReview></CourseReview>
+                  <CourseReview></CourseReview> */}
                 </div>
               </div>
             </div>

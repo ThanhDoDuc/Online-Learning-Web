@@ -6,15 +6,19 @@ import TopCate from "../../Components/UI/TopCategories/TopCate";
 import UserPageLayout from "../../Components/Layout/UserPageLayout/UserPageLayout";
 import CouserasBuy from "../../Components/ReUse/CoursesBuy/CoursesBuy";
 
+
+
 const HomePage = () => {
   return (
-    <UserPageLayout>
+    <div>
+      <UserPageLayout>
       <SliderTop />
       <CouserasBuy/>
       <TopCate />
       <Couseras />
       <FeaCop />
     </UserPageLayout>
+    </div>
   );
 };
 
