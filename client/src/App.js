@@ -77,7 +77,6 @@ function App() {
           ></Route>
           <Route path="coursePage/:courseId" element={<CoursePage />} />
           <Route path="message" element={<MessagePage />}></Route>
-          <Route path="coursePage/search/:title" element={<SearchCoursesPage />}></Route>
           <Route
             path="coursePage/search/:title"
             element={<SearchCoursesPage />}

@@ -19,12 +19,24 @@ module.exports = (sequelize, DataTypes) => {
   const User = sequelize.define(
     "User",
     {
-      name: DataTypes.STRING,
       email: {
         type: DataTypes.STRING,
         unique: true,
+        allowNull: false,
       },
-      password: DataTypes.STRING,
+      name: {
+        type: DataTypes.STRING,
+        allowNull: false,
+      },
+      password: {
+        type: DataTypes.STRING,
+        allowNull: false,
+      },
+      money: {
+        type: DataTypes.FLOAT,
+        defaultValue: 0,
+      },
+      user_type: DataTypes.STRING,
     },
     {
       hooks: {
@@ -33,6 +45,37 @@ module.exports = (sequelize, DataTypes) => {
       },
     }
   );
+
+  User.associate = (models) => {
+    User.hasOne(models.Student, {
+      foreignKey: "userId",
+    });
+    User.hasOne(models.Teacher, {
+      foreignKey: "userId",
+    });
+    User.hasMany(models.Discussion, {
+      foreignKey: "userId",
+    });
+    User.hasOne(models.Enroll, {
+      foreignKey: "userId",
+    });
+    User.hasOne(models.Cart, {
+      foreignKey: "userId",
+    });
+    User.hasMany(models.Feedback, {
+      foreignKey: "userId",
+    });
+  };
+
+  User.prototype.hashPassword = function hashNewPassword(password) {
+    const SALT_FACTOR = 8;
+    return bcrypt
+      .genSaltAsync(SALT_FACTOR)
+      .then((salt) => bcrypt.hashAsync(password, salt, null))
+      .then((hash) => {
+        return hash;
+      });
+  };
 
   User.prototype.comparePassword = function comparePassword(password) {
     return bcrypt.compareAsync(password, this.password);

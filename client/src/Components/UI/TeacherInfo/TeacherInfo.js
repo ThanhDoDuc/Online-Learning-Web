@@ -7,8 +7,7 @@ import EmptyStar from "../../ReUse/Star/EmptyStar";
 class TeacherInfo extends React.Component {
     render() {
 
-        const data = this.props.data;
-
+        const data = this.props;
         const fullStar = data.rating;
         const emptyStar = 5 - data.rating;
 
@@ -50,7 +49,7 @@ class TeacherInfo extends React.Component {
 
 TeacherInfo.defaultProps = {
     data: {
-        name: "Nong Viet Dung",
+        name: "Nguyen Van K",
         avatar: img,
         numberCourse: 10,
         numberStudent: 100,
