@@ -40,16 +40,10 @@ class CourseReview extends React.Component {
 
 CourseReview.defaultProps = {
     data: {
-        name: "Nong Viet Dung",
+        name: "Nguyen Van Hai",
         avatar: img,
         rating: 3,
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam blanditiis deleniti illo odit. " +
-            "Accusantium distinctio dolore dolorem eos ipsa itaque laboriosam magni molestiae natus provident quasi, " +
-            "quidem quisquam, rerum suscipit. dolore dolorem eos ipsa itaque laboriosam magni molestiae natus provident quasi, " +
-            "quidem quisquam, rerum suscipit. dolore dolorem eos ipsa itaque laboriosam magni molestiae natus provident quasi, " +
-            "quidem quisquam, rerum suscipit. dolore dolorem eos ipsa itaque laboriosam magni molestiae natus provident quasi, " +
-            "quidem quisquam, rerum suscipit. dolore dolorem eos ipsa itaque laboriosam magni molestiae natus provident quasi, " +
-            "quidem quisquam, rerum suscipit."
+        description: "I graduated from my undergrad in CS at a uni in the UK back in 2019, decided to watch this since my field of work briefly shifted post uni, but now coming back to software dev thought about checking this out, I'm only 2 hours into this course and it's already miles and miles better than what I went through on my course, almost feels like I wasted money, there were useful bits ofc, but this is just highly engaging and so well structured. So glad this is available for free!!!!"
     }
 }
 

@@ -42,7 +42,7 @@ class CourseReviewTieuBieu extends React.Component {
 
 CourseReviewTieuBieu.defaultProps = {
   data: {
-    userName: "Nong Viet Dung",
+    userName: "Nguyen Van Mot",
     courseAmount: "9",
     reviewAmount: "2",
     description:

@@ -57,9 +57,23 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+a:visited{
+  color: rgb(140, 0, 255);
+}
+
+a:link, a:active{
+  color: blue;
+}
+a {
+  color: rgb(0, 183, 255)
+}
+
+
