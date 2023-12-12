@@ -178,7 +178,7 @@ const Course = () => {
                 {courseInformation.primarily_taught}
               </div>
               <div style={{ display: "flex", marginBottom: "10px" }}>
-                <div className="course-badge">Bán chạy nhất</div>
+                <div className="course-badge">Top sellers</div>
               </div>
               <div style={{ marginBottom: "10px" }}>
                 Created by:
@@ -202,12 +202,12 @@ const Course = () => {
                   <div className="grid grid-cols-2 gap-4">
                     {courseInformation.learning_object
                       ? courseInformation?.learning_object
-                          .split("\n")
-                          .map((item, index) => (
-                            <div className="col-span-1" key={index}>
-                              - {item}
-                            </div>
-                          ))
+                        .split("\n")
+                        .map((item, index) => (
+                          <div className="col-span-1" key={index}>
+                            - {item}
+                          </div>
+                        ))
                       : ""}
                   </div>
                 </div>
@@ -215,7 +215,7 @@ const Course = () => {
               <div className="course-card mt-8">
                 <div className="course-cardHeader">Course content:</div>
                 <div className="course-cardItem">
-                  Gồm có {sections.length} chương, {lectures.length} bài.
+                  Include {sections.length} part, {lectures.length} lessons.
                   {structOfCourse.map((section, idx) => {
                     return (
                       <div className="mt-1" key={idx}>
@@ -225,9 +225,8 @@ const Course = () => {
                         <ul className="pl-5">
                           {section.all_lectures.map((lecture, idx) => {
                             return (
-                              <li key={idx}>{`Lecture ${idx + 1}: ${
-                                lecture.lecture_name
-                              }`}</li>
+                              <li key={idx}>{`Lecture ${idx + 1}: ${lecture.lecture_name
+                                }`}</li>
                             );
                           })}
                         </ul>
@@ -377,13 +376,13 @@ const Course = () => {
               {(user.user_type === "admin" ||
                 isBuy ||
                 teacherInformation.userId === user.userId) && (
-                <button
-                  className="course-buttonBuy"
-                  onClick={() => navigate(`/coursePage/${courseId}`)}
-                >
-                  Watch now
-                </button>
-              )}
+                  <button
+                    className="course-buttonBuy"
+                    onClick={() => navigate(`/coursePage/${courseId}`)}
+                  >
+                    Watch now
+                  </button>
+                )}
             </div>
           </div>
         </div>
