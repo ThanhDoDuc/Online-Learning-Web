@@ -70,14 +70,14 @@ const CloseAccount = () => {
         <div className="w-9/12 text-center border-2 border-l-0 border-slate-200">
           <div className="border-2 border-l-0 border-t-0 border-r-0  py-6  border-slate-200">
             <div className="font-bold text-lg">Close Account</div>
-            <div className="text-base">Close your account permanently.</div>
+            <div className="text-base">Close your account adn delete this permanently.</div>
           </div>
           <div className=" p-6 text-start ">
             <div className="flex flex-col w-9/12 mx-auto my-4">
               <label className="pb-2 flex">
                 <label className="font-bold text-red-700">{`Warning: `}</label>
                 If you close your account, you will be unsubcribed from all your
-                courses, and will lose access forever.
+                courses, and will lose access forever. All of your money can't be refund !!!
               </label>
             </div>
             <div className="flex flex-col w-9/12 mx-auto my-4">

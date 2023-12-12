@@ -14,7 +14,7 @@ class TeacherInfo extends React.Component {
         return (
             <div className="teacher-card">
                 <div className="teacher-card-header">
-                    Giảng viên
+                    Teacher
                 </div>
                 <div className="teacher-name">
                     {data.name}
@@ -24,19 +24,19 @@ class TeacherInfo extends React.Component {
                 </div>
                 <div className="teacher-info">
                     <div className="teacher-avatar">
-                        <img src={data.avatar || img}/>
+                        <img src={data.avatar || img} />
                     </div>
                     <div className="teacher-overview">
                         <div className="flex">
-                            {Array.from({length: fullStar}, (_, index) => (
+                            {Array.from({ length: fullStar }, (_, index) => (
                                 <FullStar key={index}></FullStar>
                             ))}
-                            {Array.from({length: emptyStar}, (_, index) => (
+                            {Array.from({ length: emptyStar }, (_, index) => (
                                 <EmptyStar key={index}></EmptyStar>
                             ))}
                         </div>
-                        <div className="pl-1">{data.numberCourse} khóa học</div>
-                        <div className="pl-1">{data.numberStudent} học sinh</div>
+                        <div className="pl-1">{data.numberCourse} Courses</div>
+                        <div className="pl-1">{data.numberStudent} Students</div>
                     </div>
                 </div>
                 <div className="teacher-description">
