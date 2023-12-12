@@ -7,67 +7,58 @@ import { useSelector } from "react-redux";
 
 const data = [
   {
-    courseImg: "https://img-c.udemycdn.com/course/240x135/950390_270f_3.jpg",
+    courseImg: "https://files.fullstack.edu.vn/f8-prod/courses/15/62f13d2424a47.png",
     title:
-      " Apple Watch Series 7 GPS, Aluminium Case, Starlight Spordasfasfasdfasdfafsaggabsafasfserw4efadf à we eawf we fwef t",
-    teacherName: "Jose Potilla",
+      "html, css",
+    teacherName: "Son Dang",
+    rating: "4.0",
+    numberStudent: "462,590",
+    price: "789600 đồng",
+  },
+  {
+    courseImg: "https://laptrinhchuyennghiep.com/upload/laptrinhchuyennghiep.com/posts/f8-lap-trinh-javascript-co-ban.jpg",
+    title:
+      " javascripts",
+    teacherName: "Dung Nguyen",
     rating: "5.0",
     numberStudent: "462,590",
-    price: "12,199,000",
+    price: "800,000 đồng",
+  },
+  {
+    courseImg: "https://files.fullstack.edu.vn/f8-prod/courses/27/64e184ee5d7a2.png",
+    title:
+      " Sass for front end developer",
+    teacherName: "Van Thanh",
+    rating: "5.0",
+    numberStudent: "462,590",
+    price: "400,000 đồng",
+  },
+  {
+    courseImg: "https://files.fullstack.edu.vn/f8-prod/courses/21/63e1bcbaed1dd.png",
+    title:
+      " c/c++ for newbie ",
+    teacherName: "Minh Ngoc",
+    rating: "5.0",
+    numberStudent: "462,590",
+    price: "120,000 đồng",
   },
   {
     courseImg: "https://img-c.udemycdn.com/course/240x135/950390_270f_3.jpg",
     title:
-      " Apple Watch Series 7 GPS, Aluminium Case, Starlight Spordasfasfasdfasdfafsaggabsafasfserw4efadf à we eawf we fwef t",
+      "wsl/ ubuntu for newbie",
     teacherName: "Jose Potilla",
     rating: "5.0",
     numberStudent: "462,590",
-    price: "12,199,000",
+    price: "12,99 $",
   },
   {
     courseImg: "https://img-c.udemycdn.com/course/240x135/950390_270f_3.jpg",
     title:
-      " Apple Watch Series 7 GPS, Aluminium Case, Starlight Spordasfasfasdfasdfafsaggabsafasfserw4efadf à we eawf we fwef t",
+      "Basic nodejs",
     teacherName: "Jose Potilla",
     rating: "5.0",
     numberStudent: "462,590",
-    price: "12,199,000",
-  },
-  {
-    courseImg: "https://img-c.udemycdn.com/course/240x135/950390_270f_3.jpg",
-    title:
-      " Apple Watch Series 7 GPS, Aluminium Case, Starlight Spordasfasfasdfasdfafsaggabsafasfserw4efadf à we eawf we fwef t",
-    teacherName: "Jose Potilla",
-    rating: "5.0",
-    numberStudent: "462,590",
-    price: "12,199,000",
-  },
-  {
-    courseImg: "https://img-c.udemycdn.com/course/240x135/950390_270f_3.jpg",
-    title:
-      " Apple Watch Series 7 GPS, Aluminium Case, Starlight Spordasfasfasdfasdfafsaggabsafasfserw4efadf à we eawf we fwef t",
-    teacherName: "Jose Potilla",
-    rating: "5.0",
-    numberStudent: "462,590",
-    price: "12,199,000",
-  },
-  {
-    courseImg: "https://img-c.udemycdn.com/course/240x135/950390_270f_3.jpg",
-    title:
-      " Apple Watch Series 7 GPS, Aluminium Case, Starlight Spordasfasfasdfasdfafsaggabsafasfserw4efadf à we eawf we fwef t",
-    teacherName: "Jose Potilla",
-    rating: "5.0",
-    numberStudent: "462,590",
-    price: "12,199,000",
-  },
-  {
-    courseImg: "https://img-c.udemycdn.com/course/240x135/950390_270f_3.jpg",
-    title:
-      " Apple Watch Series 7 GPS, Aluminium Case, Starlight Spordasfasfasdfasdfafsaggabsafasfserw4efadf à we eawf we fwef t",
-    teacherName: "Jose Potilla",
-    rating: "5.0",
-    numberStudent: "462,590",
-    price: "12,199,000",
+    price: "180,000 đồng",
   },
 ];
 
