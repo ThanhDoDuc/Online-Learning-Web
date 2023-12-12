@@ -16,23 +16,29 @@ export default function SliderTop() {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
-    autoplay: true, 
+    autoplay: true,
     autoplaySpeed: 2000,
   };
   return (
     <>
- <div className="mx-[80px] px-[24px] slider-top ">
- <Slider {...settings}>
-            <div>
-              <img src={slide2} />
-            </div>
-            <div>
-              <img src={slide1} />
-            </div>
+      <div className="mx-[80px] px-[24px] slider-top ">
+        <Slider {...settings}>
+          <div>
+            <img src={slide2} />
+          </div>
+          <div>
+            <img src={slide1} />
+          </div>
+          <div>
+            <img src={slide3} />
+          </div>
+          <div>
+            <img src={slide4} />
+          </div>
         </Slider>
- </div>
-    
+      </div>
+
     </>
-    
+
   );
 }

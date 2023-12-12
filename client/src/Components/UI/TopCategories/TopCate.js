@@ -11,7 +11,7 @@ const TopCate = () => {
               <div className="transition-transform duration-300 ease-in-out overflow-hidden w-[300px]">
                 <img
                   className="hover:scale-110 "
-                  src="https://s.udemycdn.com/home/top-categories/lohp-category-design-v2.jpg"
+                  src="https://i.ibb.co/qNYV7Vc/design.jpg"
                   alt=""
                 />
               </div>
@@ -26,7 +26,7 @@ const TopCate = () => {
               <div className="transition-transform duration-300 ease-in-out overflow-hidden w-[300px]">
                 <img
                   className="hover:scale-110 "
-                  src="https://s.udemycdn.com/home/top-categories/lohp-category-development-v2.jpg"
+                  src="https://i.ibb.co/Bn0MTGV/develoment.jpg"
                   alt=""
                 />
               </div>
@@ -40,12 +40,12 @@ const TopCate = () => {
               <div className="transition-transform duration-300 ease-in-out overflow-hidden w-[300px]">
                 <img
                   className="hover:scale-110 "
-                  src="https://s.udemycdn.com/home/top-categories/lohp-category-marketing-v2.jpg"
+                  src="https://i.ibb.co/mcv2c4g/game.jpg"
                   alt=""
                 />
               </div>
               <div className="pt-[8px] pb-[16px]">
-                <span className="text-[15px] font-bold">Marketing</span>
+                <span className="text-[15px] font-bold">Game Design</span>
               </div>
             </div>
           </div>
@@ -54,7 +54,7 @@ const TopCate = () => {
               <div className="transition-transform duration-300 ease-in-out overflow-hidden w-[300px]">
                 <img
                   className="hover:scale-110 "
-                  src="https://s.udemycdn.com/home/top-categories/lohp-category-it-and-software-v2.jpg"
+                  src="https://i.ibb.co/Bn0MTGV/develoment.jpg"
                   alt=""
                 />
               </div>
@@ -70,7 +70,7 @@ const TopCate = () => {
               <div className="transition-transform duration-300 ease-in-out overflow-hidden w-[300px]">
                 <img
                   className="hover:scale-110 "
-                  src="https://s.udemycdn.com/home/top-categories/lohp-category-personal-development-v2.jpg"
+                  src="https://i.ibb.co/n7w5Zh8/Online-Personal-Development-Course.jpg"
                   alt=""
                 />
               </div>
@@ -86,12 +86,12 @@ const TopCate = () => {
               <div className="transition-transform duration-300 ease-in-out overflow-hidden w-[300px]">
                 <img
                   className="hover:scale-110 "
-                  src="https://s.udemycdn.com/home/top-categories/lohp-category-business-v2.jpg"
+                  src="https://i.ibb.co/Fm5t4JR/trading.jpg"
                   alt=""
                 />
               </div>
               <div className="pt-[8px] pb-[16px]">
-                <span className="text-[15px] font-bold">Business</span>
+                <span className="text-[15px] font-bold">Trading</span>
               </div>
             </div>
           </div>
@@ -100,12 +100,12 @@ const TopCate = () => {
               <div className="transition-transform duration-300 ease-in-out overflow-hidden w-[300px]">
                 <img
                   className="hover:scale-110 "
-                  src="https://s.udemycdn.com/home/top-categories/lohp-category-photography-v2.jpg"
+                  src="https://i.ibb.co/drbWbVH/art.jpg"
                   alt=""
                 />
               </div>
               <div className="pt-[8px] pb-[16px]">
-                <span className="text-[15px] font-bold">Photography</span>
+                <span className="text-[15px] font-bold">Art Studying</span>
               </div>
             </div>
           </div>
@@ -114,12 +114,12 @@ const TopCate = () => {
               <div className="transition-transform duration-300 ease-in-out overflow-hidden w-[300px]">
                 <img
                   className="hover:scale-110 "
-                  src="https://s.udemycdn.com/home/top-categories/lohp-category-music-v2.jpg"
+                  src="https://i.ibb.co/gWwDGrm/music.jpg"
                   alt=""
                 />
               </div>
               <div className="pt-[8px] pb-[16px]">
-                <span className="text-[15px] font-bold">Music</span>
+                <span className="text-[15px] font-bold">Music Instrument</span>
               </div>
             </div>
           </div>
