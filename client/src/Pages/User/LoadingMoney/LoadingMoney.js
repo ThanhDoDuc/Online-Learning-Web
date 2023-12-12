@@ -18,7 +18,12 @@ const LoadingMoney = () => {
           <div className="p-6 text-start">
             <div className="flex flex-col w-9/12 mx-auto my-4">
               <label className="pb-2 flex">
-                Scan the QR code to loading money to your account
+                <b>METHOD 1:</b> Pay in this bank account:
+                NAME : DO DUC THANH
+                BANK : MB BANK - 99912122001999
+
+                <b>METHOD 2:</b>
+                Scan the QR code to loading money to your account:
               </label>
             </div>
             <div className="flex flex-col w-9/12 mx-auto my-4">
